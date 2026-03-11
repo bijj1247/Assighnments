@@ -49,7 +49,7 @@ namespace Assignments
     {
         static void Main()
         {
-            Book b1 = new Book("Clean Code", "Robert Martin", 600, true);
+            Book b1 = new Book("GAnesh Bijjala", "The 10X rule", 600, true);
 
             b1.Display();
         }
