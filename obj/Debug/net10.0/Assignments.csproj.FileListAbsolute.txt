@@ -1,0 +1,14 @@
+C:\Users\dell\source\repos\Assignments\Assignments\bin\Debug\net10.0\Assignments.exe
+C:\Users\dell\source\repos\Assignments\Assignments\bin\Debug\net10.0\Assignments.deps.json
+C:\Users\dell\source\repos\Assignments\Assignments\bin\Debug\net10.0\Assignments.runtimeconfig.json
+C:\Users\dell\source\repos\Assignments\Assignments\bin\Debug\net10.0\Assignments.dll
+C:\Users\dell\source\repos\Assignments\Assignments\bin\Debug\net10.0\Assignments.pdb
+C:\Users\dell\source\repos\Assignments\Assignments\obj\Debug\net10.0\Assignments.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dell\source\repos\Assignments\Assignments\obj\Debug\net10.0\Assignments.AssemblyInfoInputs.cache
+C:\Users\dell\source\repos\Assignments\Assignments\obj\Debug\net10.0\Assignments.AssemblyInfo.cs
+C:\Users\dell\source\repos\Assignments\Assignments\obj\Debug\net10.0\Assignments.csproj.CoreCompileInputs.cache
+C:\Users\dell\source\repos\Assignments\Assignments\obj\Debug\net10.0\Assignments.dll
+C:\Users\dell\source\repos\Assignments\Assignments\obj\Debug\net10.0\refint\Assignments.dll
+C:\Users\dell\source\repos\Assignments\Assignments\obj\Debug\net10.0\Assignments.pdb
+C:\Users\dell\source\repos\Assignments\Assignments\obj\Debug\net10.0\Assignments.genruntimeconfig.cache
+C:\Users\dell\source\repos\Assignments\Assignments\obj\Debug\net10.0\ref\Assignments.dll
