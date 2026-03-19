@@ -37,6 +37,7 @@ namespace Assignments
 
         public void Display()
         {
+            Console.WriteLine("=======================Details of the Book========================");
             double discounted_price = CalculateDiscountedPrice();              
             Console.WriteLine("Title: " + Title);
             Console.WriteLine("Author: " + Author);
@@ -50,8 +51,9 @@ namespace Assignments
         static void Main()
         {
             Book b1 = new Book("GAnesh Bijjala", "The 10X rule", 600, true);
-
+            Book b2 = new Book("U KNow who", "Get epic shit done", 500, false);
             b1.Display();
+            b2.Display();
         }
     }
 }
