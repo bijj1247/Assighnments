@@ -1,18 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+using System;
 
 namespace Assignments
 {
-
-    //Mam Taking photos and uploading is a bit challenging, so i am uploading each assignment in different file but same repositor
-
     class Book
     {
-        string Title;
-        string Author;
-        double Price;
-        bool IsBestseller;
+        private string Title;
+        private string Author;
+        private double Price;
+        private bool IsBestseller;
+
         public Book(string title, string author, double price, bool isBestseller)
         {
             Title = title;
@@ -24,25 +20,30 @@ namespace Assignments
         public double CalculateDiscountedPrice()
         {
             double finalPrice = Price;
+
             if (IsBestseller)
             {
-                finalPrice = finalPrice - (finalPrice * 0.10);
+                finalPrice -= finalPrice * 0.10;
             }
-            if (Price > 500)
+            if (finalPrice > 500)
             {
-                finalPrice = finalPrice - (finalPrice * 0.05);
+                finalPrice -= finalPrice * 0.05;
             }
+
             return finalPrice;
         }
 
         public void Display()
         {
-            Console.WriteLine("=======================Details of the Book========================");
-            double discounted_price = CalculateDiscountedPrice();              
+            Console.WriteLine("======================= Details of the Book =======================");
+
+            double discountedPrice = CalculateDiscountedPrice();
+
             Console.WriteLine("Title: " + Title);
             Console.WriteLine("Author: " + Author);
             Console.WriteLine("Original Price: " + Price);
-            Console.WriteLine("Final Price: " + discounted_price);
+            Console.WriteLine($"Final Price: {discountedPrice:F2}");
+            Console.WriteLine();
         }
     }
 
@@ -50,8 +51,9 @@ namespace Assignments
     {
         static void Main()
         {
-            Book b1 = new Book("GAnesh Bijjala", "The 10X rule", 600, true);
-            Book b2 = new Book("U KNow who", "Get epic shit done", 500, false);
+            Book b1 = new Book("The 10X Rule", "Grant Cardone", 600, true);
+            Book b2 = new Book("Get Epic Shit Done", "Warikoo", 500, false);
+
             b1.Display();
             b2.Display();
         }
